@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import {device} from '../devices';
 
 const Navbar = () => {
     return (
@@ -54,6 +55,36 @@ const StyledHeader = styled.header `
     nav ul li a {
         padding: 10px 30px;
         font-size: 1.55rem;
+    }
+
+    @media ${device.laptop} {
+        flex-direction: column;
+        align-items: center;
+    }
+    @media ${device.tablet} {
+        h1 {
+            font-size: 40px;
+        }
+        nav ul li a {
+            font-size: 1.2rem;
+            padding: 10px 15px;
+        }
+    }
+    @media ${device.mobileL} {
+        h1 {
+            font-size: 35px;
+        }
+        nav ul li a {
+            font-size: 1rem;
+            padding: 10px 15px;
+        }
+    }
+    @media ${device.mobileM} {
+        
+        nav ul li a {
+            font-size: .8rem;
+            padding: 10px 15px;
+        }
     }
 `
 

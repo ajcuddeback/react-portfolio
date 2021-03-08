@@ -30,6 +30,9 @@ const GlobalStyle = createGlobalStyle `
         text-decoration: none;
         color: #43d3fe;
     }
+    .red-border {
+        border-right: 1px solid blue;
+    }
 `
 
 
