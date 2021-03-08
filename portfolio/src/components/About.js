@@ -4,6 +4,7 @@ import headShot from '../images/Head-shot.jpg';
 import resume from "../PDF's/Austin's-Resume.pdf";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faDownload} from '@fortawesome/free-solid-svg-icons';
+import {device} from '../devices';
 
 const About = () => {
     return (
@@ -13,10 +14,11 @@ const About = () => {
             </div>
             <article>
                 <div className="about-content-wrapper row">
-                    <div>
+                    <div className="img">
                         <img src={headShot} alt="Photo of Austin Cuddeback sitting on a bench"
                             className="float-right img-responsive"></img>
-                    </div>
+                            </div>
+                    
                     <div className="download-button-wrapper text-center">
                         <h3>Hello, my name is Austin Cuddeback and I am a full-stack web developer with many years
                                 of
@@ -31,7 +33,7 @@ const About = () => {
                         <br />
                         <h3>My skills:</h3>
                         <ul>
-                            <li>Front end: HTML5, CSS, Javascript, jQuery, Bootstrap, GSAP, Animations, Handlebars
+                            <li className="front-end">Front end: HTML5, CSS, Javascript, jQuery, Bootstrap, GSAP, Animations, Handlebars
                             </li>
                             <li>Back end: Node.js, Express.js, Stripe.js, API's, MySQL, SQLite, Sequelize, bcrypt,
                                 cookies,
@@ -55,24 +57,73 @@ const StyledAbout = styled.section `
 
     .about-content-wrapper {
         display: flex;
-        justify-content: space-around;
         width:50%;
         margin: 0 auto;
     }
 
     .download-button-wrapper {
-        width: 40%;
+        width: 100%;
         align-self: center;
+        margin-left: 4rem;
+    }
+    .front-end {
+        margin-bottom: 1rem;
+    }
+
+    h3 {
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    form {
+        display: flex;
+        justify-content: center;
+        margin-top: 1rem;
     }
 
     img {
-        width: 60%;
         border-radius: 5px;
         transition: all 0.5s ease-in-out;
+        height: 500px;
         &:hover {
             box-shadow: 2px 2px 15px 2px blue;
             transition: 1s;
         }
+    }
+
+    @media ${device.laptopL} {
+        .about-content-wrapper {
+            width: 70%;
+        }
+        img{
+            height: 400px;
+        }
+    }
+    @media ${device.laptop} {
+        .about-content-wrapper {
+            width: 80%;
+        }
+        img{
+            height: 300px;
+        }
+    }
+    @media ${device.tablet} {
+        .about-content-wrapper {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        img {
+            height: 350px;
+        }
+        .download-button-wrapper {
+            margin-left: 0;
+        }
+    }
+    @media ${device.mobileM} {
+       h3 {
+           font-size: 1rem;
+       }
     }
 `
 

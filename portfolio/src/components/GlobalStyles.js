@@ -1,4 +1,5 @@
 import {createGlobalStyle} from 'styled-components';
+import {device} from '../devices';
 
 
 const GlobalStyle = createGlobalStyle `
@@ -46,7 +47,35 @@ const GlobalStyle = createGlobalStyle `
         margin-top: 150px;
         margin-bottom: 20px;
         border-bottom: 1px solid blue;
-}
+    }
+    .btn {
+        background-color: blue;
+        padding: .7rem;
+        border-style: none;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 150px;
+    }
+    @media ${device.laptop} {
+       .main-titles {
+           width: 40%;
+       }
+    }
+    @media ${device.tablet} {
+       .main-titles {
+           width: 50%;
+       }
+    }
+    @media ${device.mobileL} {
+       .main-titles {
+           width: 60%;
+       }
+    }
+    @media ${device.mobileM} {
+       .main-titles {
+           width: 70%;
+       }
+    }
 `
 
 
