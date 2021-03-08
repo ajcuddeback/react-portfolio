@@ -10,8 +10,20 @@ const GlobalStyle = createGlobalStyle `
         box-sizing: border-box;
     }
 
+    html {
+        scroll-behavior: smooth;
+        overflow-x: hidden !important;
+    }
+
+    :root {
+        --background: rgb(3,0,0);
+        --silver: #c5c6c7;
+        --neon-blue: #43d3fe;
+    }
+
     body {
-        font-family: Neon;
+        background-color: var(--background);
+        color: var(--neon-blue);
     }
 `
 
