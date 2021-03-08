@@ -5,7 +5,7 @@ import {device} from '../devices';
 const Navbar = () => {
     return (
         <StyledHeader>
-            <h1><a href="/index.html">AustinWebDev</a></h1>
+            <h1><a href="/react-portfolio">AustinWebDev</a></h1>
             <nav>
                 <ul>
                     <li><a href="#about" className="red-border">About Me</a></li>
