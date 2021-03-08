@@ -8,11 +8,15 @@ import Works from './components/Works';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
+// Global Style
+import GlobalStyle from './components/GlobalStyles';
+
 import './styles.css'
 
 function App() {
   return (
     <div className="App">
+      <GlobalStyle />
       <Navbar />
       <Hero />
       <About />
