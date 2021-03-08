@@ -1,10 +1,9 @@
 import React from 'react';
-import '../fonts/Neoneon.otf';
 import styled from 'styled-components';
 
 const Navbar = () => {
     return (
-        <styledHeader>
+        <StyledHeader>
             <h1><a href="/index.html">AustinWebDev</a></h1>
             <nav>
                 <ul>
@@ -13,11 +12,11 @@ const Navbar = () => {
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
-        </styledHeader>
+        </StyledHeader>
     )
 }
 
-const styledHeader = styled.header `
+const StyledHeader = styled.header `
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;

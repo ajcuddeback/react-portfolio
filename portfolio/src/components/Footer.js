@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
     return (
         <footer>
-                <div class="top-footer-content">
+                <div className="top-footer-content">
                     <a href="https://github.com/ajcuddeback" target="_blank">
                         {/* <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48"
                             viewBox="0 0 172 172" style=" fill:#000000;">
@@ -69,7 +69,7 @@ const Footer = () => {
                         </svg> */}
                     </a>
                 </div>
-                <div class="left-side-footer">
+                <div className="left-side-footer">
                     <p>Designed and Made by Austin Cuddeback</p>
                 </div>
             </footer>
