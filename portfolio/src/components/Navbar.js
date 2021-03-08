@@ -22,6 +22,7 @@ const StyledHeader = styled.header `
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 30px 30px;
+    z-index: -1;
 
     h1 {
         border: 2px solid blue;

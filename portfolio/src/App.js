@@ -1,6 +1,7 @@
 import React from 'react';
 
 // Import components
+import Intro from './components/Intro';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
@@ -16,6 +17,7 @@ import './styles.css'
 function App() {
   return (
     <div className="App">
+      <Intro />
       <GlobalStyle />
       <Navbar />
       <Hero />

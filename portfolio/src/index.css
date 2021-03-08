@@ -25,4 +25,24 @@
   to {
     opacity: 1;
   }
-} ;
+}
+
+@keyframes headingUp {
+  from {
+    top: 45vh;
+  }
+  to {
+    top: 40vh;
+  }
+}
+
+@keyframes moveIntro {
+  from {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+  to {
+    opacity: 0;
+    transform: translateX(3000px);
+  }
+}
