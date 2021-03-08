@@ -1,15 +1,20 @@
 import React from 'react';
+import styled from 'styled-components';
+import headShot from '../images/Head-shot.jpg';
+import resume from "../PDF's/Austin's-Resume.pdf";
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {faDownload} from '@fortawesome/free-solid-svg-icons';
 
 const About = () => {
     return (
-        <section className="about" id="about">
+        <StyledAbout id="about">
+            <div className="title-flex">
+                <h2 className="main-titles">About Me</h2>
+            </div>
             <article>
-                <div className="title-flex">
-                    <h2 className="main-titles">About Me</h2>
-                </div>
                 <div className="about-content-wrapper row">
                     <div>
-                        <img src="./assets/Images/Head-shot.jpg" alt="Photo of Austin Cuddeback sitting on a bench"
+                        <img src={headShot} alt="Photo of Austin Cuddeback sitting on a bench"
                             className="float-right img-responsive"></img>
                     </div>
                     <div className="download-button-wrapper text-center">
@@ -35,15 +40,40 @@ const About = () => {
                         <div className="">
                             <h3>Click to download my resume!</h3>
                         </div>
-                        <form method="get" action="./assets/PDF's/Austin's-Resume.pdf" target="_blank"
-                            className="download-button-container mt-3">
-                            <button className="btn"><i className="fa fa-download"></i> Download</button>
+                        <form method="get" action={resume} target="_blank"
+                            className="download-button-container">
+                            <button className="btn"><FontAwesomeIcon icon={faDownload} />Download</button>
                         </form>
                     </div>
                 </div>
             </article>
-        </section>
+        </StyledAbout>
     )
-}
+};
+
+const StyledAbout = styled.section `
+
+    .about-content-wrapper {
+        display: flex;
+        justify-content: space-around;
+        width:50%;
+        margin: 0 auto;
+    }
+
+    .download-button-wrapper {
+        width: 40%;
+        align-self: center;
+    }
+
+    img {
+        width: 60%;
+        border-radius: 5px;
+        transition: all 0.5s ease-in-out;
+        &:hover {
+            box-shadow: 2px 2px 15px 2px blue;
+            transition: 1s;
+        }
+    }
+`
 
 export default About;

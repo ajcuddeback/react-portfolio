@@ -33,6 +33,20 @@ const GlobalStyle = createGlobalStyle `
     .red-border {
         border-right: 1px solid blue;
     }
+
+    .title-flex {
+        display: flex;
+        justify-content: center;
+    }
+
+    .main-titles {
+        font-size: 3rem;
+        width: 20%;
+        text-align: center;
+        margin-top: 150px;
+        margin-bottom: 20px;
+        border-bottom: 1px solid blue;
+}
 `
 
 
