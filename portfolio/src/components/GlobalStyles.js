@@ -25,6 +25,11 @@ const GlobalStyle = createGlobalStyle `
         background-color: var(--background);
         color: var(--neon-blue);
     }
+    
+    a {
+        text-decoration: none;
+        color: #43d3fe;
+    }
 `
 
 

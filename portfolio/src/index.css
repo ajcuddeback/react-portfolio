@@ -2,3 +2,27 @@
   font-family: "Neon";
   src: url("./fonts/Neoneon.otf") format("opentype");
 }
+
+@keyframes headGlow {
+  from {
+    opacity: 1;
+  }
+  5% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  55% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+} ;
