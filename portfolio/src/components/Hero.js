@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import heroImg from '../images/hero-img-blue.jpg';
+import {device} from '../devices';
 
 const Hero = () => {
     return (
@@ -39,6 +40,30 @@ const StyledHero = styled.section `
     span {
         display: block;
         margin-top: 10px;
+    }
+
+    @media ${device.laptop} {
+        h2 {
+            width: 40%;
+        }
+    }
+    @media ${device.tablet} {
+        h2 {
+            width: 50%;
+        }
+    }
+    @media ${device.mobileL} {
+        div {
+            height: 400px;
+        }
+        h2 {
+            width: 65%;
+        }
+    }
+    @media ${device.mobileM} {
+        h2 {
+            width: 75%;
+        }
     }
 `
 
