@@ -46,3 +46,14 @@
     transform: translateX(3000px);
   }
 }
+
+@media screen and (max-width: 425px) {
+  @keyframes headingUp {
+    from {
+      top: 45vh;
+    }
+    to {
+      top: 35vh;
+    }
+  }
+}

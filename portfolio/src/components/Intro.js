@@ -111,6 +111,44 @@ const StyledIntro = styled.div `
         width: 1400px;
         height: 2.9rem;
     }
+
+    @media ${device.laptopL} {
+        h1 {
+            font-size: 1.9rem
+        }
+        .blocking {
+            height: 3.2rem;
+        }
+    }
+    
+    @media ${device.laptop} {
+        h1 {
+            font-size: 1.4rem
+        }
+        .blocking {
+            height: 3.2rem;
+        }
+    }
+    @media ${device.tablet} {
+        h1 {
+            font-size: 1rem
+        }
+        .blocking {
+            height: 3.2rem;
+        }
+    }
+    @media ${device.mobileL} {
+        h1 {
+            font-size: 1.05rem;
+        }
+        .blocking {
+            height: 3.3rem;
+            width: 455px;
+        }
+        h1 span {
+            display: block;
+        }
+    }
 `
 
 export default Intro
