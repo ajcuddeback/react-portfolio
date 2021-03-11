@@ -15,7 +15,7 @@ const About = () => {
             <article>
                 <div className="about-content-wrapper row">
                     <div className="img">
-                        <img src={headShot} alt="Photo of Austin Cuddeback sitting on a bench"
+                        <img src={headShot} alt="Austin Cuddeback sitting on a bench"
                             className="float-right img-responsive"></img>
                             </div>
                     
@@ -32,19 +32,20 @@ const About = () => {
                                 development.</h3>
                         <br />
                         <h3>My skills:</h3>
+                        <br/>
                         <ul>
-                            <li className="front-end">Front end: HTML5, CSS, Javascript, jQuery, Bootstrap, GSAP, Animations, Handlebars
+                            <li className="front-end"> <p> <u> Front End Technologies </u></p> <br/> HTML5 | CSS | Javascript | jQuery | Bootstrap | GSAP | Animations | Handlebars | React.js | Styled Components | React Hooks
                             </li>
-                            <li>Back end: Node.js, Express.js, Stripe.js, API's, MySQL, SQLite, Sequelize, bcrypt,
-                                cookies,
-                                express-session, dotenv</li>
+                            <li className="back-end" ><p> <u> Back End Technologies </u></p> <br/> Node.js | Express.js | Stripe.js | API's | MySQL | SQLite | Sequelize | bcrypt |
+                                cookies | express-session | dotenv</li>
                         </ul>
+                        <br/>
                         <div className="">
                             <h3>Click to download my resume!</h3>
                         </div>
                         <form method="get" action={resume} target="_blank"
                             className="download-button-container">
-                            <button className="btn"><FontAwesomeIcon icon={faDownload} />Download</button>
+                            <button className="btn"><FontAwesomeIcon icon={faDownload} />   Download</button>
                         </form>
                     </div>
                 </div>
@@ -68,6 +69,11 @@ const StyledAbout = styled.section `
     }
     .front-end {
         margin-bottom: 1rem;
+    }
+
+    .front-end,
+    .back-end {
+        font-size: 1rem;
     }
 
     h3 {

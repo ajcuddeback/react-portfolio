@@ -20,39 +20,39 @@ const Works = () => {
                 </div>
                 <div className="grid-wrapper">
                     <div className="grid-content">
-                        <a href="https://dev-connect-ac.herokuapp.com/" target="_blank" className="works main-work">
+                        <a href="https://dev-connect-ac.herokuapp.com/" target="_blank" className="works main-work" rel="noreferrer">
                             <div>
                                 <p className="Coding-Quiz">Dev Connect</p>
                             </div>
                         </a>
-                        <a href="https://www.hernandoreptile.org/" target="_blank" className="works sub-work1">
+                        <a href="https://www.hernandoreptile.org/" target="_blank" className="works sub-work1" rel="noreferrer">
                             <div>
                                 <p>Hernando Reptile</p>
                             </div>
                         </a>
                         <a href="https://budget-application-1999.herokuapp.com/" target="_blank"
-                            className="works sub-work2">
+                            className="works sub-work2" rel="noreferrer">
                             <div>
                                 <p className="comingSoonP">Budget App</p>
                             </div>
                         </a>
                         <a href="https://ajcuddeback.github.io/Explore-Outdoors/" target="_blank"
-                            className="works sub-work3">
+                            className="works sub-work3" rel="noreferrer">
                             <div>
                                 <p className="weatherAppP">Explore Outdoors</p>
                             </div>
                         </a>
-                        <a href="https://ajcuddeback.github.io/days/" target="_blank" className="works sub-work4">
+                        <a href="https://ajcuddeback.github.io/days/" target="_blank" className="works sub-work4" rel="noreferrer">
                             <div>
                                 <p className="comingSoonP">Days.</p>
                             </div>
                         </a>
-                        <a href="https://ajcuddeback.github.io/beat-maker/" target="_blank" className="works sub-work5">
+                        <a href="https://ajcuddeback.github.io/beat-maker/" target="_blank" className="works sub-work5" rel="noreferrer">
                             <div>
                                 <p className="comingSoonP">Beat Maker</p>
                             </div>
                         </a>
-                        <a href="https://vast-atoll-67249.herokuapp.com/" target="_blank" className="works sub-work6">
+                        <a href="https://vast-atoll-67249.herokuapp.com/" target="_blank" className="works sub-work6" rel="noreferrer">
                             <div>
                                 <p className="comingSoonP">Note Taker</p>
                             </div>

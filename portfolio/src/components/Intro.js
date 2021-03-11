@@ -81,7 +81,7 @@ const Intro = () => {
         <StyledIntro>
             <canvas ref={canvasRef} id='canvas1'></canvas>
             <h1>Hello, my name is Austin Cuddeback, <span>and I am a Full-Stack Web Developer</span></h1>
-            <div class="blocking"></div>
+            <div className="blocking"></div>
         </StyledIntro>
     )
 }
@@ -89,7 +89,7 @@ const Intro = () => {
 const StyledIntro = styled.div `
     z-index: 999;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -97,6 +97,10 @@ const StyledIntro = styled.div `
     position: fixed;
     animation: moveIntro 2s 3.9s forwards;
     background-color: var(--background);
+
+    #canvas1 {
+        height: 100%;
+    }
 
     h1 {
         font-size: 2.5rem;
