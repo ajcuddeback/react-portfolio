@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.896401a7.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.4875cf34.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.4875cf34.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.03169bd0.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.03169bd0.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.ef985357.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.ef985357.js.map",
     "static/js/2.1ee2df7e.chunk.js": "/react-portfolio/static/js/2.1ee2df7e.chunk.js",
@@ -12,13 +12,13 @@
     "index.html": "/react-portfolio/index.html",
     "static/css/main.896401a7.chunk.css.map": "/react-portfolio/static/css/main.896401a7.chunk.css.map",
     "static/js/2.1ee2df7e.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.1ee2df7e.chunk.js.LICENSE.txt",
-    "static/media/Austin's-Resume.ab3d7f57.pdf": "/react-portfolio/static/media/Austin's-Resume.ab3d7f57.pdf",
+    "static/media/Austin-Cuddeback-Resume.15cdf877.pdf": "/react-portfolio/static/media/Austin-Cuddeback-Resume.15cdf877.pdf",
     "static/media/Head-shot.3d655374.jpg": "/react-portfolio/static/media/Head-shot.3d655374.jpg",
     "static/media/index.css": "/react-portfolio/static/media/Neoneon.0e8458da.otf",
     "static/media/beat-maker.e6ce0839.png": "/react-portfolio/static/media/beat-maker.e6ce0839.png",
     "static/media/budget-app.05caaebc.png": "/react-portfolio/static/media/budget-app.05caaebc.png",
     "static/media/days.d0ecb7e6.png": "/react-portfolio/static/media/days.d0ecb7e6.png",
-    "static/media/dev-connect.4dd504d6.png": "/react-portfolio/static/media/dev-connect.4dd504d6.png",
+    "static/media/dev-connect.1b1356d1.png": "/react-portfolio/static/media/dev-connect.1b1356d1.png",
     "static/media/explore-outdoors.77e1eda7.png": "/react-portfolio/static/media/explore-outdoors.77e1eda7.png",
     "static/media/github.7823ada9.svg": "/react-portfolio/static/media/github.7823ada9.svg",
     "static/media/hero-img-blue.2965600d.jpg": "/react-portfolio/static/media/hero-img-blue.2965600d.jpg",
@@ -31,6 +31,6 @@
     "static/js/runtime-main.ef985357.js",
     "static/js/2.1ee2df7e.chunk.js",
     "static/css/main.896401a7.chunk.css",
-    "static/js/main.4875cf34.chunk.js"
+    "static/js/main.03169bd0.chunk.js"
   ]
 }
