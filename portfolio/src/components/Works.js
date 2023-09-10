@@ -20,7 +20,7 @@ const Works = () => {
                 </div>
                 <div className="grid-wrapper">
                     <div className="grid-content">
-                        <a href="https://dev-connect-ac.herokuapp.com/" target="_blank" className="works main-work" rel="noreferrer">
+                        <a href="https://dev-connect-v2.herokuapp.com/" target="_blank" className="works main-work" rel="noreferrer">
                             <div>
                                 <p className="Coding-Quiz">Dev Connect</p>
                             </div>
