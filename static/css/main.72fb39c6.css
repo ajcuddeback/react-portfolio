@@ -1,0 +1,2 @@
+@font-face{font-family:Neon;src:url(/react-portfolio/static/media/Neoneon.0e8458da3db6e6d434c9.otf) format("opentype")}@keyframes headGlow{0%{opacity:1}5%{opacity:0}20%{opacity:1}50%{opacity:0}55%{opacity:1}60%{opacity:0}to{opacity:1}}@keyframes headingUp{0%{top:45vh}to{top:40vh}}@keyframes moveIntro{0%{opacity:1;transform:translateX(0)}to{opacity:0;transform:translateX(3000px)}}@media screen and (max-width:425px){@keyframes headingUp{0%{top:45vh}to{top:35vh}}}
+/*# sourceMappingURL=main.72fb39c6.css.map*/
