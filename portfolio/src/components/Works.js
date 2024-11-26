@@ -10,6 +10,7 @@ import exploreOutdoors from '../images/explore-outdoors.png';
 import days from '../images/days.png';
 import beatMaker from '../images/beat-maker.png';
 import noteTaker from '../images/note-taker.png';
+import rgbLights from '../images/1_LhkgbLr8VT1hExHKi182UQ.webp';
 
 const Works = () => {
     return (
@@ -20,14 +21,14 @@ const Works = () => {
                 </div>
                 <div className="grid-wrapper">
                     <div className="grid-content">
-                        <a href="https://dev-connect-v2.herokuapp.com/" target="_blank" className="works main-work" rel="noreferrer">
+                        <a href="https://medium.com/@ajcuddeback_70849/raspberry-pi-neopixel-light-show-f4e502aeec08" target="_blank" className="works main-work" rel="noreferrer">
                             <div>
-                                <p className="Coding-Quiz">Dev Connect</p>
+                                <p className="Coding-Quiz">Raspberry PI Light Project</p>
                             </div>
                         </a>
-                        <a href="https://www.hernandoreptile.org/" target="_blank" className="works sub-work1" rel="noreferrer">
+                        <a href="https://dev-connect-v2.herokuapp.com/" target="_blank" className="works sub-work1" rel="noreferrer">
                             <div>
-                                <p>Hernando Reptile</p>
+                                <p>Dev Connect</p>
                             </div>
                         </a>
                         <a href="https://budget-application-1999.herokuapp.com/" target="_blank"
@@ -100,7 +101,7 @@ const StyledWorks = styled.section`
     .main-work {
         width: 100%;
         grid-column: 1 / span 3;
-        background-image: url(${devConnect});
+        background-image: url(${rgbLights});
         background-size: cover;
     }  
     .sub-work1,
@@ -120,7 +121,7 @@ const StyledWorks = styled.section`
     }
 
     .sub-work1 {
-        background-image: url(${hernandoReptile});
+        background-image: url(${devConnect});
         background-position: top;
     }
     .sub-work2 {

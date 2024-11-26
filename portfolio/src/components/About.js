@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import headShot from '../images/Head-shot.jpg';
+import headShot from '../images/received_2267712333434763.jpeg';
 import resume from "../PDF's/Austin-Cuddeback-Resume.pdf";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faDownload} from '@fortawesome/free-solid-svg-icons';
@@ -21,19 +21,17 @@ const About = () => {
                     
                     <div className="download-button-wrapper text-center">
                         <h3>
-                            Hello, my name is Austin and I am a driven Full-Stack Developer with two years of Web Development Experience. I have strong problem-solving
-                            and techinical writing skills. I am experienced with HTML, CSS, Node, 
-                            APIs, Databases (SQL and MongoDB), React.js, AWS/Azure, and Ubuntu instances.
+                            I am a results-oriented Software Engineer with a proven track record of success and innovation. My expertise lies in leveraging cutting-edge technologies to develop robust and scalable software solutions. Proficient in Angular, Java, Node.js, PSQL, and Typescript/Javascript, I bring a versatile skill set to the table.
                         </h3>
                         <br />
                         <h3>My skills:</h3>
                         <br/>
                         <ul>
-                            <li className="front-end"> <p> <u> Front End Technologies </u></p> <br/> HTML5 | CSS (SASS/SCSS) | Javascript | jQuery | React.js | Styled Components | Angular.js |
+                            <li className="front-end"> <p> <u> Front End Technologies </u></p> <br/> HTML5 | CSS (SASS/SCSS) | Javascript | jQuery | React.js | Styled Components | Angular |
                             Cookies | Bootstrap | Animations 
                             </li>
-                            <li className="back-end" ><p> <u> Back End Technologies </u></p> <br/> Node.js | Express.js | Stripe.js | API's | MySQL | PostgreSQL | Sequelize | bcrypt | 
-                            MongoDB | Sails.js | Auth0</li>
+                            <li className="back-end" ><p> <u> Back End Technologies </u></p> <br/> Node.js | Typescript | Java | Python | Express.js | Stripe.js | API's | PostgreSQL | bcrypt |
+                            MongoDB | Auth0 | Keycloak | </li>
                             <br />
                             <li className="dev-ops"><p><u> Dev Sec Ops </u></p> <br /> Azure (VM's, Blob, CDN) | AWS (S3, Lambda, CloudFront, Cognito) | Linux (Ubuntu) | Cloudflare (DNS, Cache, Streams)</li>
                         </ul>
