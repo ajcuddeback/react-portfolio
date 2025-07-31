@@ -100,7 +100,7 @@ const StyledWorks = styled.section`
     .main-work {
         width: 100%;
         grid-column: 1 / span 3;
-        background-image: url(${rgbLights});
+        background-image: url(${nimbus});
         background-size: cover;
     }  
     .sub-work1,
@@ -120,20 +120,20 @@ const StyledWorks = styled.section`
     }
 
     .sub-work1 {
-        background-image: url(${devConnect});
+        background-image: url(${rgbLights});
         background-position: top;
     }
     .sub-work2 {
-        background-image: url(${budgetApp});
+        background-image: url(${devConnect});
     }
     .sub-work3 {
-        background-image: url(${exploreOutdoors});
+        background-image: url(${budgetApp});
     }
     .sub-work4 {
-        background-image: url(${days});
+        background-image: url(${exploreOutdoors});
     }
     .sub-work5 {
-        background-image: url(${nimbus});
+        background-image: url(${days});
     }
     .sub-work6 {
         background-image: url(${noteTaker});
