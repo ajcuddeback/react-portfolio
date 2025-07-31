@@ -3,12 +3,11 @@ import styled from 'styled-components';
 import {device} from '../devices';
 
 // imported images
-import devConnect from '../images/dev-connect.png';
-import hernandoReptile from '../images/home-img-prev.png';
+import devConnect from '../images/dev-connect.png'
 import budgetApp from '../images/budget-app.png';
 import exploreOutdoors from '../images/explore-outdoors.png';
 import days from '../images/days.png';
-import beatMaker from '../images/beat-maker.png';
+import nimbus from '../images/nimbus.png';
 import noteTaker from '../images/note-taker.png';
 import rgbLights from '../images/1_LhkgbLr8VT1hExHKi182UQ.webp';
 
@@ -21,36 +20,36 @@ const Works = () => {
                 </div>
                 <div className="grid-wrapper">
                     <div className="grid-content">
-                        <a href="https://medium.com/@ajcuddeback_70849/raspberry-pi-neopixel-light-show-f4e502aeec08" target="_blank" className="works main-work" rel="noreferrer">
+                        <a href="https://nimbus-weather-project.com" target="_blank" className="works main-work" rel="noreferrer">
+                            <div>
+                                <p className="comingSoonP">Nimbus Weather</p>
+                            </div>
+                        </a>
+                        <a href="https://medium.com/@ajcuddeback_70849/raspberry-pi-neopixel-light-show-f4e502aeec08" target="_blank" className="works sub-work1" rel="noreferrer">
                             <div>
                                 <p className="Coding-Quiz">Raspberry PI Light Project</p>
                             </div>
                         </a>
-                        <a href="https://dev-connect-v2.herokuapp.com/" target="_blank" className="works sub-work1" rel="noreferrer">
+                        <a href="https://dev-connect-v2.herokuapp.com/" target="_blank" className="works sub-work2" rel="noreferrer">
                             <div>
                                 <p>Dev Connect</p>
                             </div>
                         </a>
                         <a href="https://budget-application-1999.herokuapp.com/" target="_blank"
-                            className="works sub-work2" rel="noreferrer">
+                            className="works sub-work3" rel="noreferrer">
                             <div>
                                 <p className="comingSoonP">Budget App</p>
                             </div>
                         </a>
                         <a href="https://ajcuddeback.github.io/Explore-Outdoors/" target="_blank"
-                            className="works sub-work3" rel="noreferrer">
+                            className="works sub-work4" rel="noreferrer">
                             <div>
                                 <p className="weatherAppP">Explore Outdoors</p>
                             </div>
                         </a>
-                        <a href="https://ajcuddeback.github.io/days/" target="_blank" className="works sub-work4" rel="noreferrer">
+                        <a href="https://ajcuddeback.github.io/days/" target="_blank" className="works sub-work5" rel="noreferrer">
                             <div>
                                 <p className="comingSoonP">Days.</p>
-                            </div>
-                        </a>
-                        <a href="https://ajcuddeback.github.io/beat-maker/" target="_blank" className="works sub-work5" rel="noreferrer">
-                            <div>
-                                <p className="comingSoonP">Beat Maker</p>
                             </div>
                         </a>
                         <a href="https://vast-atoll-67249.herokuapp.com/" target="_blank" className="works sub-work6" rel="noreferrer">
@@ -134,7 +133,7 @@ const StyledWorks = styled.section`
         background-image: url(${days});
     }
     .sub-work5 {
-        background-image: url(${beatMaker});
+        background-image: url(${nimbus});
     }
     .sub-work6 {
         background-image: url(${noteTaker});
